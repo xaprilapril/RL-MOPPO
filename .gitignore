@@ -1,0 +1,56 @@
+# checkpoints de PyTorch (~100MB en total, demasiado grandes para git)
+outputs/**/*.pt
+outputs/**/*.pt.bak
+
+# carpetas de entrenamiento completas (se regeneran con reproduce.py)
+outputs/moppo/
+outputs/moppo_karate/
+outputs/moppo_curriculum/
+outputs/moppo_k4/
+outputs/moppo_fb/
+outputs/baseline_*/
+outputs/test_smoke/
+outputs/timing_test/
+outputs/seed_*/
+outputs/*_s1/
+outputs/*_s2/
+outputs/*_s3/
+
+# LaTeX build artifacts
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.synctex.gz
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Configuracion local
+.claude/
+
+# Archivos de proyecto anterior (no relacionados con MOPPO)
+fig1_eda_clases.png
+fig2_features.png
+fig3_correlaciones.png
+fig4_smote.png
+fig5_roc_pr.png
+fig6_conf_matrix.png
+fig7_importancia_metricas.png
+fig8_eda_prestamos.png
+fig9_violin.png
+fig10_roc_calibracion.png
+fig11_umbral.png
+make_pptx.py
+presentacion_avance.html
+run_experiments.ps1
+
+# OS
+.DS_Store
+Thumbs.db

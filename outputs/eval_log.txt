@@ -1,0 +1,20 @@
+==================================================
+1/3  Pareto frontier sweep...
+     Hypervolume: 0.9199  |  Pareto front size: 11
+2/3  Fairness audit (alpha=0.5)...
+     Disparity index Delta (Q1/Q4): 0.000
+     Q1_peripheral: norm_loss=0.000
+     Q2Q3_middle: norm_loss=0.020
+     Q4_hub: norm_loss=0.000
+3/3  TREX analysis (30 episodes, k=3)...
+TREX figure -> ..\..\outputs\eval\trex_analysis.png
+
+  TREX cluster summary:
+    [utility-dominant    ]  n= 9  mean_alpha=0.51  r_priv=-0.064  r_util=-0.029  Delta=14.70 [SESGO]
+    [balanced            ]  n=11  mean_alpha=0.53  r_priv=-0.057  r_util=-0.049  Delta=11.93 [SESGO]
+    [privacy-dominant    ]  n=10  mean_alpha=0.63  r_priv=-0.056  r_util=-0.032  Delta=13.55 [SESGO]
+
+Outputs saved to ..\..\outputs\eval/
+  pareto_frontier.png
+  trex_analysis.png
+  eval_results.json
