@@ -1,8 +1,11 @@
 # MOPPO: Multi-Objective PPO for Graph Anonymization
 
+Alanis González & Abril Montaño
+
 Codigo del paper:
 > **MOPPO: Aprendizaje por Refuerzo Multi-Objetivo con Curriculum Learning para Anonimizacion de Grafos**
-> Abril Minerva, 2026.
+
+
 
 ---
 
